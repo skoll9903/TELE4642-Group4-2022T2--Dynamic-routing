@@ -2,8 +2,11 @@
 This project created a basic Mininet topo that apply special routing rule -- separate TCP and other traffic into 2 paths.
 Implementation of Project - dynamic routing
 Auto static ARP is enabled in this topo to simplify the network traffic.
+
 Feature
+
 This Demo application have following features so far:
+
 a)	Separate TCP and UDP traffic into different path for transmission;
 b)	Exchange the roles of the two paths on the fly, using REST API provided by RYU controller.
 
