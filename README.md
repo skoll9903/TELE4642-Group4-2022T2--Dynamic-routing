@@ -1,6 +1,8 @@
 # Basic-Mininet-Ryu-Routing-topo-Ryu-REST-API-usecase
-This project created a basic Mininet topo that apply special routing rule -- separate TCP and other traffic into 2 paths.
 Implementation of Project - dynamic routing
+
+This project created a basic Mininet topo that apply special routing rule -- separate TCP and other traffic into 2 paths.
+
 Auto static ARP is enabled in this topo to simplify the network traffic.
 
 Feature
@@ -8,6 +10,7 @@ Feature
 This Demo application have following features so far:
 
 a)	Separate TCP and UDP traffic into different path for transmission;
+
 b)	Exchange the roles of the two paths on the fly, using REST API provided by RYU controller.
 
 How to execute the demo:
